@@ -1,4 +1,4 @@
-'''class Person:
+class Person:
     pass
 p1 = Person()
 print(p1)
@@ -84,7 +84,7 @@ account = BankAccount()
 deposit_amount = float(input("Enter deposit amount: "))
 account.deposit(deposit_amount)
 withdraw_amount = float(input("Enter withdrawal amount: "))
-account.withdraw(withdraw_amount)'''
+account.withdraw(withdraw_amount)
 
 # 5) Build a class Rectangle that accepts length and width, and returns area and perimeter
 class Rectangle:
